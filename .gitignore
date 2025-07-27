@@ -1,0 +1,41 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+.env/
+# 包管理工具生成的锁文件
+poetry.lock
+pipenv.lock
+# IDE 配置
+.vscode/
+.idea/
+*.iml
+# Python 缓存与临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+# 日志与调试文件
+*.log
+*.pyc
+*.pyo
+*.pyd
+# 测试覆盖率报告
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+# 环境变量文件
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# 操作系统生成的无用文件
+.DS_Store
+Thumbs.db
+# 其他常见忽略
+dist/
+build/
+docs/_build/
+*.egg-info/
